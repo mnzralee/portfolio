@@ -508,6 +508,7 @@ textarea {
 }
 
 .personal-btn-con{
+  display:none;
   padding: 20px;
   display: flex;
   justify-content: left;
@@ -520,6 +521,10 @@ textarea {
 /* media section for bigger screens */
 
 @media screen and (min-width: 980px) {
+  .personal-btn-con{
+    display: block;
+  }
+  
   header {
     justify-content: flex-end;
     align-items: flex-end;
