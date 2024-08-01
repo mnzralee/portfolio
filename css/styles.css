@@ -291,8 +291,6 @@ header {
 .fake-magicwall ul {
   list-style: none;
   display: flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
   flex-wrap: wrap;
 }
 .fake-magicwall ul li {
