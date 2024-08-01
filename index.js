@@ -17,6 +17,13 @@ const myFunc = (navCondition) => {
   }
 }
 
+const navlinks = document.querySelectorAll('.nav-links a')
+
+navlinks.forEach(link => {
+  link.addEventListener('click', () => myFunc('close'))
+});
+
+
 // Part 1 javascript functionality ends here
 $(document).ready(function () {
   if (
