@@ -12,7 +12,6 @@ body {
   color: rgb(255, 255, 255);
   background: rgb(29, 29, 29);
   overflow-x: hidden;
-  width:100%;
 }
 .fake-big {
   display: block;
@@ -310,7 +309,7 @@ header {
   bottom: 0;
   right: 0;
   transition: transform 0.5s, opacity 0.5s;
-  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
 }
 .fake-magicwall img {
   width: 100%;
@@ -320,8 +319,6 @@ header {
 
 .fake-magicwall ul li:hover .magic-wall_item {
   transform: scale(1.14);
-  -ms-transform: scale(1.4);
-  -webkit-transform: scale(1.14);
 }
 .fake-magicwall ul li a.colorbox {
   display: block;
@@ -333,8 +330,6 @@ header {
   background: url(../images/circle.png) no-repeat center;
   opacity: 0;
   transition: all 150ms ease-out;
-  -o-transition: all 150ms ease-out;
-  -webkit-transition: all 150ms ease-out;
   transform: scale(0.2);
 }
 .fake-magicwall ul li:hover a.colorbox {
