@@ -12,6 +12,7 @@ body {
   color: rgb(255, 255, 255);
   background: rgb(29, 29, 29);
   overflow-x: hidden;
+  width: 100%;
 }
 .fake-big {
   display: block;
