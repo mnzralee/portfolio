@@ -508,6 +508,7 @@ textarea {
 
 .details-wrapper{
   padding: 30px;
+  overflow: hidden;
 
 }
 
