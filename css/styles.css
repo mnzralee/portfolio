@@ -175,7 +175,6 @@ header {
   line-height: 45px;
   letter-spacing: -3px;
   position: relative;
-  z-index: 10;
 }
 .text-zone h1::before {
   content: '<h1>';
