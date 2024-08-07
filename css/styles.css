@@ -509,7 +509,7 @@ textarea {
 .details-wrapper{
   padding: 30px;
   overflow: hidden;
-
+  width: 100%;
 }
 
 .personal-btn-con{
