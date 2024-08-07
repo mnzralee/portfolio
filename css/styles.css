@@ -175,6 +175,7 @@ header {
   line-height: 45px;
   letter-spacing: -3px;
   position: relative;
+  z-index: 10;
 }
 .text-zone h1::before {
   content: '<h1>';
@@ -197,8 +198,11 @@ header {
   letter-spacing: 3px;
 }
 .text-zone img {
-  width: 35px;
-  height: 50px;
+  height: 150px;
+  position: absolute;
+  top: -5px;
+  left: 150px;
+  z-index: -1;
 }
 .text-zone .gray-text {
   margin-top: 30px;
@@ -580,8 +584,11 @@ canvas{
     letter-spacing: -6px;
   }
   .text-zone img {
-    width: 50px;
-    height: 72px;
+    height: 300px;
+    position: absolute;
+    top: -20px;
+    left: 327px;
+    z-index: -1;
   }
   .text-zone .gray-text {
     font-size: 1rem;
