@@ -279,13 +279,15 @@ header {
   left: -30px;
   right: auto;
 }
+
 .scroll-down span {
   display: inline-block;
   animation: scroll 0.5s linear infinite alternate-reverse;
 }
+
 @keyframes scroll {
   0% {
-    transform: translateX(-7px);
+    transform: translateX(-8px);
   }
   100% {
     transform: translateX(7px);
