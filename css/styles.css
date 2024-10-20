@@ -250,7 +250,7 @@ header {
   height: 100%;
   position: absolute;
   left: 0;
-  border: 1px solid #08fdd8;
+  border: 1px solid rgb(8, 253, 216);
   box-sizing: border-box;
 }
 .contact-button span.text {
